@@ -8,3 +8,12 @@ print(__name__)
 @app.route("/")
 def hello_world():
     return "Hiiiii"
+
+#  (/) it define the root to search to go the next page /blog/dogs 
+
+@app.route("/blog")
+def hello_world():
+    return "welcomr to my blog"
+
+#  flask templates giving html file to route 
+
